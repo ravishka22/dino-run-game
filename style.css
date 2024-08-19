@@ -1,0 +1,205 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("images/background.png") ;
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+}
+.body{
+    margin: 0px;
+}
+.player{
+    position: absolute;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 62vh;
+}
+.scorebox{
+    background-color: rgba(250, 235, 215, 0.418);
+    padding: 10px;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    margin-left: 80vw;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.scoretext{
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.score{
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 600;
+    visibility: hidden;
+}
+.block{
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    background-image: url("images/flame.gif");
+    background-size: cover;
+    margin-top: 72vh;
+}
+.gameOver{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/background.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+}
+.overbox{
+    background-color: rgba(250, 235, 215, 0.418);
+    padding: 100px;
+    border-radius: 15px;
+    font-size: 90px;
+    font-family: "Poppins";
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.endimg{
+    display: flex;
+    margin-right: 260px;
+    margin-top: -200px;
+    width: 500px;
+}
+.overname{
+    font-size: 90px;
+    color: red;
+}
+.overscore{
+    font-size: 70px;
+    color: green;
+}
+
+.btn{
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+.gameStart{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/background.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+
+}
+.startbox{
+    background-color: rgba(250, 235, 215, 0.418);
+    padding: 100px;
+    border-radius: 15px;
+    justify-content: center;
+}
+.gamename{
+    font-size: 90px;
+    font-family: "Poppins";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.startb{
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.startimg{
+    display: flex;
+    margin-left: 160px;
+    width: 600px;
+}
+
+.gameWin{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.winbox{
+    background-color: rgba(250, 235, 215, 0.418);
+    background-image: url(images/back.gif);
+    background-size: cover;
+    padding: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.winName{
+    font-size: 90px;
+    font-family: "Poppins";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.conrat{
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.btn3{
+    width: 400px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer; 
+}
+.winImage{
+    margin-left: 160px;
+    display: flex;
+    width: 600px;
+}

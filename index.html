@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dino Run</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+
+    <body class="body" onkeyup="keyCheck(event);">
+        <div class="background" id="background">
+            <div class="scorebox">
+                <div class="scoretext">Score</div>
+                <div class="score" id="score">0</div>
+            </div>
+            
+            <img id="player" class="player" src="images/Run (1).png"/>
+        </div>
+
+        <div class="gameStart" id="gameStart">
+            <div class="startbox">
+                <div class="gamename">Dino Run</div>
+                <div class="startimg">
+                    <img src="images/Jump (7).png"/>
+                </div>
+                <div class="startb">
+                    <button class="btn2" onclick="run();">Press "Enter" to Start</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="gameOver" id="gameOver">
+            <div class="overbox">
+                <div class="overname">Game Over</div>
+                <div class="endimg">
+                    <img src="images/Dead (8).png"/>
+                </div>
+                <div class="overscore">Your Score</div>
+                <div class="endScore" id="endScore"> 0 </div>
+                <button class="btn" id="btn" onclick="re();">Try Again</button>
+            </div>
+        </div>
+
+        <div class="gameWin" id="gameWin">
+            <div class="winbox">
+                <div class="conrat">Congratulations!</div>
+                <div class="winName">You Win</div>
+                <div class="winImage">
+                    <img src="images/Idle (1).png"/>
+                </div>
+                <button class="btn3" id="btn" onclick="re();">Back to Start</button>
+
+            </div>
+
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
