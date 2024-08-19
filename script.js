@@ -89,7 +89,7 @@ function jump(){
         runWorkerId = setInterval(run,100);
         runSound.play();
     }
-    player.src = "images/jump ("+jumpImageNumber+").png";
+    player.src = "images/Jump ("+jumpImageNumber+").png";
 }
 
 //Move Background
