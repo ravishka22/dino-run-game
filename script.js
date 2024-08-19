@@ -3,6 +3,14 @@ function keyCheck(event){
 
     //Enter key
     if (event.which==13){
+        var elem = document.getElementById("body");
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+            elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+            elem.msRequestFullscreen();
+        }
         if (runWorkerId==0){
            runWorkerId = setInterval(run,100);
            runSound.play();
