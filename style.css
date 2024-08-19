@@ -75,7 +75,7 @@
 }
 .overbox{
     background-color: rgba(250, 235, 215, 0.418);
-    padding: 100px;
+    padding: 20px;
     border-radius: 15px;
     font-size: 90px;
     font-family: "Poppins";
@@ -127,7 +127,7 @@
 }
 .startbox{
     background-color: rgba(250, 235, 215, 0.600);
-    padding: 100px;
+    padding: 20px;
     border-radius: 15px;
     justify-content: center;
 }
@@ -175,7 +175,7 @@
     background-color: rgba(250, 235, 215, 0.418);
     background-image: url(images/back.gif);
     background-size: cover;
-    padding: 100px;
+    padding: 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
