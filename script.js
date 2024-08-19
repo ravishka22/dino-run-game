@@ -31,7 +31,7 @@ function keyCheck(event){
         }
         
     }
-    UP Arrow Key
+    //UP Arrow Key
     if (event.which==38){
         if (runStart==1){
             if(deadWorkerId==0){
