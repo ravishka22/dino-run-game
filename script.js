@@ -32,20 +32,20 @@ function keyCheck(event){
         
     }
     //UP Arrow Key
-    if (event.which==38){
-        if (runStart==1){
-            if(deadWorkerId==0){
-                if (jumpWorkerId==0){
-                    clearInterval(runWorkerId);
-                    runSound.pause();
-                    jumpWorkerId = setInterval(jump,80);
-                    jumpSound.play();
-                }
-            }
+    // if (event.which==38){
+    //     if (runStart==1){
+    //         if(deadWorkerId==0){
+    //             if (jumpWorkerId==0){
+    //                 clearInterval(runWorkerId);
+    //                 runSound.pause();
+    //                 jumpWorkerId = setInterval(jump,80);
+    //                 jumpSound.play();
+    //             }
+    //         }
             
-        }
+    //     }
         
-    }
+    // }
     
 }
 
@@ -73,7 +73,9 @@ var jumpWorkerId = 0;
 var jumpImageNumber = 1;
 var playerMarginTop = 62;
 function jump(){
+    
     jumpImageNumber++;
+    
     if(jumpImageNumber<=7){
         playerMarginTop = playerMarginTop -3;
         player.style.marginTop = playerMarginTop +"vh";
@@ -89,7 +91,7 @@ function jump(){
         runWorkerId = setInterval(run,100);
         runSound.play();
     }
-    player.src = "images/Run ("+jumpImageNumber+").png";
+    player.src = "images/Jump ("+jumpImageNumber+").png";
 }
 
 //Move Background
