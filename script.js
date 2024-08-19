@@ -31,21 +31,21 @@ function keyCheck(event){
         }
         
     }
-    //UP Arrow Key
-    // if (event.which==38){
-    //     if (runStart==1){
-    //         if(deadWorkerId==0){
-    //             if (jumpWorkerId==0){
-    //                 clearInterval(runWorkerId);
-    //                 runSound.pause();
-    //                 jumpWorkerId = setInterval(jump,80);
-    //                 jumpSound.play();
-    //             }
-    //         }
+    UP Arrow Key
+    if (event.which==38){
+        if (runStart==1){
+            if(deadWorkerId==0){
+                if (jumpWorkerId==0){
+                    clearInterval(runWorkerId);
+                    runSound.pause();
+                    jumpWorkerId = setInterval(jump,80);
+                    jumpSound.play();
+                }
+            }
             
-    //     }
+        }
         
-    // }
+    }
     
 }
 
